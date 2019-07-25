@@ -1,0 +1,374 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0;
+    margin: 0;;
+    background: #2b2b2b;
+
+}
+
+body::after {
+    content: "";
+    /* background: url(../img/aroma-aromatic-beans-531754.jpg) no-repeat; */
+    background-size: 120%;
+    background-position-x: 100%;
+    opacity: 0.4;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+    z-index: -1;
+  }
+
+ul{
+    display: inline;
+    margin: 0;
+    padding: 0;
+}
+
+/* Global container */
+.container{
+    width: 80%;
+    margin: auto; /*Sets the content to be in the middle, like float, but not  like text-align. */
+    overflow: hidden;
+}
+
+/* Header */
+header{
+    height: 70px;
+    background: #2b2b2b;
+    color: #ffffff;
+    padding-top: 0;
+    min-height: 70px;
+    border-bottom: #4287f5 2px solid;
+    padding-bottom: 10px;
+}
+header nav{
+    margin:auto;
+    width: 800px;;
+    text-align: center;
+    margin-top: 10px;
+}
+header a{
+    color: #ffffff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+header li a:hover{
+    color: grey;
+}
+header .current a{
+    color: #4287f5;
+}
+
+header li:nth-child(1){
+    float: left;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+header li:nth-child(2){
+    float: left;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+header li:nth-child(3){
+    float: left;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+header li:nth-child(4){
+    float: right;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+header li:nth-child(5){
+    float: right;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+header li:nth-child(6){
+    float: right;
+    display:  inline;
+    padding:20px 20px 20px 20px;
+}
+
+header img{
+    display: inline-block;
+    overflow: visible;
+    transform: translateY(-15%);
+    margin: 0;
+    position:no-repeat;
+    height: 150px;
+}
+
+/* Sections */
+
+
+#showcase{
+
+    height: 500px
+    margin: 0;
+    color: #ffffff;
+    text-align: center;
+}
+
+#showcase #banner{
+  height: 400px;
+}
+
+#showcase button{
+  font-size: 20px;
+  color: white;
+  background-color: #4287f5;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
+
+#showcase button:hover{
+  background-color: #82b2ff;
+  transition: 0.3s;  
+}
+
+#showcase h2{
+    position: relative;
+    left: 0;
+    top: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:  #FFFFFF;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-variant: small-caps;
+    font-size: 62px;
+}
+
+#showcase h1{
+    margin: 0;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: 500;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+
+#showcase p{
+    margin: 0;
+    font-size: 22px;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    padding: 0 40px 0 40px;
+}
+
+.heroText{
+  position: absolute;
+  top: 40px;'
+  max-width: 400px;
+}
+
+.carousel-container{
+  overflow: hidden;
+}
+.carousel-slide{
+  width: 100%;
+  display: flex;
+  height: auto;
+  height: 500px;
+}
+
+#content{
+    font-size: 16px;
+    color: #2b2b2b;
+    background-color: #f2f1ea;
+    background-size: 70%;
+    padding-top:30px 60px 30px 60px;
+    border-top: #4287f5 solid 2px;
+    margin: auto;
+    width: auto;
+}
+
+
+#content img{
+    margin-top: 30px;
+    margin-bottom: 30px;
+    float: right;
+    width: 550px;
+    overflow: visible;
+    padding: 30px 30px 30px 30px
+}
+
+#content h3{
+    padding-top: 30px;
+    font-size: 38px;
+}
+
+#content p{
+    font-size: 20px;
+    margin: 0;
+    line-height: 1.5;
+}
+
+
+
+
+
+/* About content */
+#about-content{
+    font-size: 12px;
+    color: #2b2b2b;
+    background-color: #f2f1ea;
+    background-size: 70%;
+    padding-top:30px 60px 30px 60px;
+    border-top: #4287f5 solid 2px;
+    margin: auto;
+    width: auto;
+}
+
+
+#about-content img{
+  margin-bottom: 30px;
+    float: right;
+    width: 450px;
+    overflow: visible;
+}
+
+#about-content h3{
+    padding-top: 10px;
+    font-size: 38px;
+}
+
+#about-content p{
+    font-size: 18px;
+    margin: 0;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+
+
+#info{
+    margin-bottom: 0;
+    font-size: 16px;
+    color: #2b2b2b;
+    background-color: #f2f1ea;
+    background-size: 70%;
+    padding-top:30px 60px 30px 60px;
+    align-content: center;
+    border-top: #4287f5 solid 2px;
+}
+
+#info .container{
+    width: 40%;
+    text-align: center;
+}
+
+#poster{
+    margin: auto;
+    width: auto;
+    background-color: #2b2b2b;
+    border-top: #4287f5 solid 2px;
+}
+
+#poster .box{
+    float:left;
+    width: 30%;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#poster .box img{
+    width: 250px;
+}
+
+#poster .box p{
+  color: white;
+  text-align: center;
+
+}
+
+#poster p{
+  color: white;
+  text-align: center;
+
+}
+#poster h2{
+  color: white;
+  text-align: center;
+
+}
+#poster h3{
+  font-size: 36px;
+  color: white;
+  text-align: center;
+
+}
+
+#poster a{
+  text-decoration: underline;
+  color: white;
+  transform: translate(-50%, -50%);
+}
+
+
+.dropdown{
+  align-items: center;
+  top: 50%;
+  left: 50%;
+}
+
+.dropdown button{
+  font-size: 24px;
+  margin-top: 20px;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #4287f5;
+  width: 600px;
+  color: #fff;
+  border: none;
+  border-radius: 7px;
+  cursor: pointer;
+}
+.dropdown button:hover{
+  background-color: #82b2ff;
+  transition: 0.3s;
+}
+
+.dropdown ul{
+  padding-bottom: 30px;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  transition: 0.5s;
+  transform-origin: top;
+}
+
+.dropdown ul li{
+  text-align: left;
+  list-style: none;
+  display: block;
+  padding-top: 5px;
+  padding-left: 30px;
+  padding-bottom: 5px;
+  border-bottom: (0,0,0,0.5);
+}
+
+
+#video {
+  text-align: center;
+  padding: 30px;
+  align-items: center;
+  background-color: #f2f1ea;
+  background-size: 70%;
+  padding-top:30px 60px 30px 60px;
+  border-top: #4287f5 solid 2px;
+}
+
+
+/* Global Footer */
+footer{
+    border-top: #4287f5 solid 2px;
+    padding-top: 20px;
+    color: #FFFFFF;
+    background-color: #2b2b2b;
+    text-align: center;
+}
