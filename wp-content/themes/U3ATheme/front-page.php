@@ -65,6 +65,9 @@
     <iframe width="420" height="315"
       src="https://www.youtube.com/embed/svfiNGuv8MY">
     </iframe>
+    <br>
+    <br>
+    <button id="join"><?php echo $hero['btn_text'];?></button>
   </div>
 </section>
 <?php get_footer();?>

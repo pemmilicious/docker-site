@@ -125,6 +125,14 @@ header img{
   border: none;
   border-radius: 5px;
 }
+#join{
+  font-size: 20px;
+  color: white;
+  background-color: #4287f5;
+  padding: 10px 20px 10px 20px;
+  border: none;
+  border-radius: 5px;
+}
 
 #showcase button:hover{
   background-color: #82b2ff;
