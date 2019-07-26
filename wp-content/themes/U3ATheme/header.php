@@ -14,14 +14,20 @@
     <header>
         <div class="container">
             <nav>
-                    <ul>
-                        <li  class="current"><a href="index.html">Home</a></li>
-                        <li><a href="classes.html">Classes</a></li>
-                        <li><a href="events.html">News & Events</a></li>
-                        <li><a href="about.html">About</a></li>
-                        <li><a href="contact.html">contact</a></li>
-                        <li><a href="join.html">Join Us</a></li>
-                    </ul>
+
+              <?php wp_nav_menu(
+                array(
+                  'theme_location' => 'top-menu',
+                )
+              ); ?>
+              <!-- <ul>
+                  <li  class="current"><a href="index.html">Home</a></li>
+                  <li><a href="classes.html">Classes</a></li>
+                  <li><a href="events.html">News & Events</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="contact.html">contact</a></li>
+                  <li><a href="join.html">Join Us</a></li>
+              </ul> -->
                     <img src="">
             </nav>
         </div>

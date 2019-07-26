@@ -22,6 +22,12 @@ function load_js(){
 add_action('wp_enqueue_scripts', 'load_js');
 
 
+//register menus
+add_theme_support('menus');
 
-
+register_nav_menus(
+  array(
+    'top-menu' => __('Top Menu', 'U3ATheme'),
+  )
+);
 ?>

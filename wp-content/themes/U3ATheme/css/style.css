@@ -107,7 +107,6 @@ header img{
 
 
 #showcase{
-
     height: 500px
     margin: 0;
     color: #ffffff;
@@ -129,10 +128,11 @@ header img{
 
 #showcase button:hover{
   background-color: #82b2ff;
-  transition: 0.3s;  
+  transition: 0.3s;
 }
 
 #showcase h2{
+    margin-top: 40px;
     position: relative;
     left: 0;
     top: 0;
@@ -160,7 +160,7 @@ header img{
 
 .heroText{
   position: absolute;
-  top: 40px;'
+  top: 80px;'
   max-width: 400px;
 }
 
