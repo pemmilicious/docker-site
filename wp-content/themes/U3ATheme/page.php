@@ -1,4 +1,5 @@
 <?php get_header();?>
+<?php the_content(); ?>
 
 
 <?php $about = get_field('about-us');?>

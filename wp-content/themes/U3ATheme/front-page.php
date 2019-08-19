@@ -1,9 +1,10 @@
 <?php get_header();?>
+<?php the_content(); ?>
 <?php $hero = get_field('hero');?>
 <?php $content = get_field('front-page-content');?>
 <section id="showcase">
 
-    <div class="carousel-container">
+    <!-- <div class="carousel-container">
         <div class="carousel-slide">
           <img src="<?php bloginfo('template_directory');?>/img/IMG_3197.JPG" id="lastClone">
           <img src="<?php bloginfo('template_directory');?>/img/IMG_3079.JPG">
@@ -69,5 +70,5 @@
     <br>
     <button id="join"><?php echo $hero['btn_text'];?></button>
   </div>
-</section>
+</section> -->
 <?php get_footer();?>

@@ -1,5 +1,7 @@
 <?php
 
+the_content(); 
+
 function load_css(){
   wp_register_style('style', get_template_directory_uri() . '/css/style.css', array(), 1, 'all');
   wp_enqueue_style('style');
