@@ -52,5 +52,6 @@ Password - PF&N1C)i@y0CuGPy5j
 
 Local Development Server http://192.168.99.100:8000
 
+Staging Environment: [WP-Staging](https://wordpress.org/plugins/wp-staging/)
 
 Deployment Server: http://149.28.177.221
