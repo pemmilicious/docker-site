@@ -16,7 +16,7 @@ It is recommended that you use Github Desktop to manage local repositories for D
 ## Installation
 
 Once Prerequisites are installed, Git bash into the docker-site and run:
-- `docker-machine start default` will start the virtualbox.
+- `docker-machine start default` will start the virtualbox (Make sure VirtualBox is running).
 - `docker-compose up -d` will start the docker site, which can be found on http://192.168.99.100:8000. If there is an issue with the compose: Run `docker-compose up` and retrieve the error log.
 - to kill the server Run `docker-compose down`.
 
