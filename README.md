@@ -23,13 +23,15 @@ Once Prerequisites are installed, Git bash into the docker-site and run:
 
 # Plugins
 
-The development environment and live site rely on the wordpress custom theme **[advanced-custom-fields](https://www.advancedcustomfields.com/)**.
+The development environment and live site rely on the wordpress custom theme **[All in one Migration](https://en-au.wordpress.org/plugins/all-in-one-wp-migration/)**. Use all in one migration to deploy the development site to the staging site **before** publishing the staging site to the live server.
+
+Elementor was used as a page builder to fill in content **[Elementor](https://elementor.com).
+
+WP-Staging Plugin used to deploy a staging site before live site is run. **[WP-Staging](https://wordpress.org/plugins/wp-staging/).
 
 # Usage
 
 **Upon site changes please push docker-site and updated theme to Git hub**
-
-Using the built in WordPress export function, export the theme and pages. Using the advanced-custom-fields tool, export the custom fields. Both exported items need to be imported onto the live website.
 
 
 # Server Account Information
