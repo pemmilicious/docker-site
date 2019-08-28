@@ -33,7 +33,9 @@ WP-Staging Plugin used to deploy a staging site before live site is run. **[WP-S
 
 **Upon site changes please push docker-site and updated theme to Git hub**
 When you are ready to publish your changes that have been made on the development environment(docker), and once the site has been pushed to github, please export the site using the **All-in-one Migration** option on the dash board below the tools option.
+
 On the live site(149.28.177.221) dashboard, there is a **WP Staging** option at the bottom of the menu. Launch a new Staging site, or overwrite the existing one, in order to view the changes before pushing the site to live.
+
 When the staging Site looks correct and error free, you may upload the site onto the main server using **All-in-one Migration**.
 
 
